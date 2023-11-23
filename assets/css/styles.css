@@ -1,0 +1,659 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 200px; 
+  height: auto;
+}
+
+#logo-white {
+    width: 75px; 
+  height: auto;
+  padding-bottom: 40px;
+  
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.header-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    color: #fff; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 99999;  
+}
+
+nav ul {
+    display: flex;
+    gap: 2.2rem;
+   
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    
+    font-weight: 300;
+    text-decoration: dotted;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #2d5992;
+    position: relative;
+}
+
+li a:hover {
+    color: #5882b9;
+
+}
+
+li a::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #5882b9;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    opacity: 0;
+    transition: all 0.4s;
+    pointer-events: none;
+
+    
+}
+
+li a:hover::after {
+    opacity: 1;
+    
+}
+
+
+
+#hero {
+    background-image: url("../images/backplate.jpeg");
+    
+    background-size: cover;
+    background-position: center;
+   
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    
+    font-weight: 700;
+
+}
+
+.subheading {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    max-width: 700px;
+    padding-left: 1px;
+
+}
+
+
+
+
+
+
+.gray-divider {
+    padding-top: 30px;
+    background-color: #424242;
+    margin: 0;
+}
+
+.blue-divider {
+    padding-top: 10px;
+    background-color: #2d5992;
+    margin: 0;
+}
+
+#about {
+    background-color: #2d5992;
+    margin: 0;
+    padding-top: 30px;
+    
+
+}
+
+.small-about {
+    margin: auto;
+    text-align: center;
+    max-width: 1200px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 1.1rem;
+    padding-top: 40px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin: 0    auto;
+   
+}
+
+button a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.learn-more-button {
+        margin-top: 20px;
+        padding: 10px;
+        color: white;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        border: 2px solid white; 
+        background-color: #2d5992;
+        padding-left: 25px;
+        padding-right: 25px;
+        cursor: pointer;
+       
+}
+
+.learn-more-button:hover {
+    background-color: #5882b9;
+    
+    
+}
+
+footer {
+    background-color: #2d5992;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-li a {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    
+    font-weight: 300;
+    text-decoration: dotted;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#careers-hero {
+    background-image: url("../images/careers-backplate.jpg");
+    
+    background-size: cover;
+    background-position: center;
+   
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+
+#about-hero {
+    background-image: url("../images/about-backplate.jpg");
+    
+    background-size: cover;
+    background-position: center;
+   
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+#contact-hero {
+    background-image: url("../images/contact-backplate.jpg");
+    
+    background-size: cover;
+    background-position: center;
+   
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+#projects-hero {
+    background-image: url("../images/projects-backplate.jpg");
+    
+    background-size: cover;
+    background-position: center;
+   
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.big-about {
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    font-size: 1rem;
+    position: relative;
+    
+
+}
+
+.about-container-two {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+    
+}
+
+
+h2 {
+    color: #2d5992;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+    padding-top: 100px;
+    margin-bottom: -10px;
+    position: relative;
+    
+}
+
+#decal {
+    width: 120px;
+    opacity: 5%;
+    position: absolute;
+   left: -40px;
+   top: 40px;
+   z-index: -1;
+    
+}
+
+.about-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.careers-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -35px;
+
+}
+
+.project-button
+{
+    background-color: #2d5992;
+    margin-top: 2px;
+    border: none;
+    
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family: poppins;
+    font-weight: 100;
+}
+.project-button a
+{
+    
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+#service-decal {
+    width: 1250px;
+    opacity: 5%;
+    position: absolute;
+    top: -150px;
+    left: -300px;
+   z-index: -1;
+    
+}
+
+#service-decal-two {
+    width: 800px;
+    opacity: 5%;
+    position: absolute;
+    left: 1200px;
+    bottom: -250px;
+   
+   z-index: -1;
+    
+}
+
+#service-decal-three {
+    width: 1250px;
+    opacity: 5%;
+    position: absolute;
+    left: -150px;
+    bottom: -1800px;
+   
+   z-index: -1;
+    
+}
+
+#service-decal-four {
+    width: 800px;
+    opacity: 5%;
+    position: absolute;
+    left: 1030px;
+    top: 375px;
+    
+   
+   z-index: -1;
+    
+}
+
+#careers-decal {
+    width: 1250px;
+    opacity: 5%;
+    position: absolute;
+    top: -400px;
+    left: -230px;
+   z-index: -1;
+
+}
+
+#contact-decal {
+    width: 1250px;
+    opacity: 5%;
+    position: absolute;
+    top: 50px;
+    left: -1000px;
+   z-index: -1;
+
+}
+
+
+.services-spread {
+    display: flex;
+    padding-top: 75px;
+    gap: 12rem;
+    justify-content: start;
+    
+    
+    margin-top: 275px;
+
+}
+
+.services-spread-two {
+    display: flex;
+    padding-top: 0;
+    gap: 12rem;
+    
+    justify-content: flex-end;
+    
+    
+
+}
+
+.services-spread-four {
+    display: flex;
+    padding-top: 0;
+    gap: 12rem;
+    
+   justify-content: start;
+   position: relative;
+    
+    
+
+}
+
+.service-div {
+    padding-top: 45px;
+    padding-right: 200px;
+}
+
+.service-div-left {
+    padding-top: 45px;
+    padding-left: 200px;
+}
+
+.service-para {
+    max-width: 750px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    font-size: 1rem;
+    position: relative;
+}
+
+#image-one {
+    max-width: 1300px;
+}
+
+@media screen and (max-width: 1900px) {
+    #image-one {
+        max-width: 800px;
+    }
+
+    #service-decal-two {
+        width: 400px;
+        opacity: 5%;
+        position: absolute;
+        left: 1200px;
+        bottom: -320px;
+       
+       z-index: -1;
+    
+  }
+
+  #service-decal {
+    width: 800px;
+    opacity: 5%;
+    position: absolute;
+    top: -87px;
+    left: -300px;
+   z-index: -1;
+    
+}
+}
+
+#services-hero {
+    background-image: url("../images/services-backplate.jpg");
+    
+    background-size: cover;
+    background-position: center;
+   
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .fade {
+    animation: fadeIn 0.75s ease-in-out; /* Adjust the duration and timing function as needed */
+  }
+
+
+
+  .form-wrapper {
+    height: 810px;
+    min-width: 560px;
+    background-color: #f0eceb;
+    margin-top: 40px;
+  }
+
+  #careers-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .careers-container {
+    max-width: 550px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .email-heading {
+    font-family: poppins;
+    color: #424242;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-top: 60px;
+
+  }
+
+  .email {
+    font-family: poppins;
+    color: #424242;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    
+    font-size: .85rem;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: none;
+  }
+
+  textarea {
+    resize: none;
+    height: 150px;
+    
+  }
+
+  form {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+  }
+
+  .blue-form-strip {
+    height: 25px;
+    background-color: #2d5992;
+    margin-bottom: 40px;
+    
+  }
+
+  input {
+    border: none
+  }
+
+  #form-logo {
+    height: 100px;
+    margin-top: 0;
+  }
+
+  h3 { color: #2d5992;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+
+  }
+
+  .copyright {
+    background-color: #424242;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 5px;
+  }
+
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+}
+  
+
+.project-item {
+    flex: 0 0 calc(50% - 10px);
+    height: 450px;
+    background-color: #2d5992;
+    position: relative;
+    
+}
+
+.overlay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 50px;
+    background-color: #2d5992;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 1.2rem;
+    opacity: 80%;
+  }
